@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nanomodtests", "nanomodtests\nanomodtests.csproj", "{9A5EB06C-5E81-492F-AE8D-267682EF884A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{359B6C2B-1DB0-4EC6-942A-27CBCA9B2F9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A5EB06C-5E81-492F-AE8D-267682EF884A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5EB06C-5E81-492F-AE8D-267682EF884A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5EB06C-5E81-492F-AE8D-267682EF884A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5EB06C-5E81-492F-AE8D-267682EF884A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359B6C2B-1DB0-4EC6-942A-27CBCA9B2F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359B6C2B-1DB0-4EC6-942A-27CBCA9B2F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359B6C2B-1DB0-4EC6-942A-27CBCA9B2F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359B6C2B-1DB0-4EC6-942A-27CBCA9B2F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CD8B4F5-5595-4869-B372-07D87891C768}
+	EndGlobalSection
+EndGlobal

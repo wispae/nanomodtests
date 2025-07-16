@@ -1,0 +1,92 @@
+{
+  "code": "tuningfork",
+  "class": "ItemTuningFork",
+  "behaviors": [
+    {
+      "name": "TexturesFromAttributes",
+      "properties": {
+        "TextureMappings": [
+          {
+            "PropertyName": "materials/handle",
+            "TextureName": "tinbronze",
+            "Mappings": {
+              "copper": "game:item/resource/plate/copper",
+              "tinbronze": "game:item/resource/plate/tinbronze",
+              "bismuthbronze": "game:item/resource/plate/bismuthbronze",
+              "brass": "game:item/resource/plate/brass",
+              "gold": "game:item/resource/plate/gold",
+              "silver": "game:item/resource/plate/silver",
+              "iron": "game:item/resource/plate/iron",
+              "steel": "game:item/resource/plate/steel",
+              "temporal": "game:item/resource/temporalgear"
+            }
+          },
+          {
+            "PropertyName": "materials/tip",
+            "TextureName": "temporalgear",
+            "Mappings": {
+              "gold": "game:item/resource/plate/gold",
+              "temporal": "game:item/resource/temporalgear"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "attributes": {
+    "variantGroups": {
+      "handle": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "brass",
+        "silver",
+        "iron",
+        "steel",
+        "temporal"
+      ],
+      "tip": [
+        "temporal",
+        "gold"
+      ]
+    }
+  },
+  "drawtype": "json",
+  "shape": {
+    "base": "item/tuningfork"
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -2.25,
+      "y": -1.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": -90
+    }
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -90,
+      "y": 135,
+      "z": -90
+    },
+    "origin": {
+      "x": -0,
+      "y": 0.5,
+      "z": 0.6
+    },
+    "scaleXyz": {
+      "x": -1.7,
+      "y": 1.7,
+      "z": 1.7
+    }
+  }
+}
