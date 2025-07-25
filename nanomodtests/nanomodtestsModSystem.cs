@@ -31,6 +31,7 @@ namespace nanomodtests
         private void RegisterItems(ICoreAPI api)
         {
             api.RegisterItemClass("ItemTuningFork", typeof(ItemTuningFork));
+            api.RegisterItemClass("ItemLiveMap", typeof(ItemLiveMap));
         }
 
         private void RegisterCollectibleBehaviors(ICoreAPI api)

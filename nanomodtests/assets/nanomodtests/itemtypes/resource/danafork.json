@@ -1,0 +1,193 @@
+{
+  "code": "danafork",
+  "behaviors": [
+    {
+      "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+      "properties": {
+        "textures": {
+          "handle-temporal::tip-temporal": {
+            "tinbronze": {
+              "base": "game:item/resource/temporalgear",
+              "blendedOverlays": [
+                {
+                  "base": "block/metal/trapdoor/overlay",
+                  "blendMode": "Overlay"
+                }
+              ]
+            },
+            "temporalgear": { "base": "game:item/resource/temporalgear" }
+          },
+          "handle-temporal::tip-*": {
+            "tinbronze": {
+              "base": "game:item/resource/temporalgear",
+              "blendedOverlays": [
+                {
+                  "base": "block/metal/trapdoor/overlay",
+                  "blendMode": "Overlay"
+                }
+              ]
+            },
+            "temporalgear": { "base": "game:item/resource/plate/{tip}" }
+          },
+          "handle-*::tip-temporal": {
+            "tinbronze": {
+              "base": "game:item/resource/plate/{handle}",
+              "blendedOverlays": [
+                {
+                  "base": "block/metal/trapdoor/overlay",
+                  "blendMode": "Overlay"
+                }
+              ]
+            },
+            "temporalgear": { "base": "game:item/resource/temporalgear" }
+          },
+          "handle-*::tip-*": {
+            "tinbronze": {
+              "base": "game:item/resource/plate/{handle}",
+              "blendedOverlays": [
+                {
+                  "base": "block/metal/trapdoor/overlay",
+                  "blendMode": "Overlay"
+                }
+              ]
+            },
+            "temporalgear": { "base": "game:item/resource/plate/{tip}" }
+          }
+        },
+        "shape": {
+          "*": { "base": "nanomodtests:item/tuningfork" }
+        },
+        "name": {
+          "*": [ "nanomodtests:item-danafork" ]
+        },
+        "description": {
+          "handle-*::tip-temporal": [ "nanomodtests:handlematerial", ": ", "material-{handle}", "<br>", "nanomodtests:tipmaterial", ": ", "material-{tip}", "<br>", "nanomodtests:fork-resonance" ],
+          "*": [ "nanomodtests:handlematerial", ": ", "material-{handle}", "<br>", "nanomodtests:tipmaterial", ": ", "material-{tip}" ]
+        }
+      }
+    },
+    {
+      "name": "AttributeRenderingLibrary.ContainedTransform",
+      "properties": {
+        "extraTransforms": {
+          "onDisplayTransform": {
+            "handle-*::tip-temporal": {
+              "rotation": {
+                "x": -90,
+                "y": 0,
+                "z": 0
+              },
+              "origin": {
+                "x": 0.5,
+                "y": 0.1,
+                "z": 0.3
+              },
+              "scale": 4
+            },
+            "*": {
+              "rotation": {
+                "x": -90,
+                "y": 0,
+                "z": 0
+              },
+              "origin": {
+                "x": 0.5,
+                "y": 0.1,
+                "z": 0.3
+              },
+              "scale": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "AttributeRenderingLibrary.AttachableToEntityTyped",
+      "properties": {
+        "categoryCode": {
+          "*": "lantern"
+        },
+        "attachedShapeBySlotCode": {
+          "*": {
+            "Upper Mast Storage": { "base": "nanomodtests:item/tuningfork" },
+            "neck": { "base": "nanomodtests:item/tuningfork" }
+          }
+        }
+      }
+    }
+  ],
+  "attributes": {
+    "displaycaseable": true,
+  },
+  "creativeinventoryStacks": [
+    {
+      "tabs": [ "general", "items", "nanomodtests" ],
+      "stacks": [
+        {
+          "type": "item",
+          "code": "danafork",
+          "attributes": {
+            "types": {
+              "handle": "iron",
+              "tip": "gold"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danafork",
+          "attributes": {
+            "types": {
+              "handle": "tinbronze",
+              "tip": "temporal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danafork",
+          "attributes": {
+            "types": {
+              "handle": "temporal",
+              "tip": "temporal"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "tpHandTransform": {
+    "translation": {
+      "x": -2.25,
+      "y": -1.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": -90
+    }
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -90,
+      "y": 135,
+      "z": -90
+    },
+    "origin": {
+      "x": -0,
+      "y": 0.5,
+      "z": 0.6
+    },
+    "scaleXyz": {
+      "x": -1.7,
+      "y": 1.7,
+      "z": 1.7
+    }
+  }
+}

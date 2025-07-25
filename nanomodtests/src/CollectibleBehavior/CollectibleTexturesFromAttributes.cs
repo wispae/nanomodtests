@@ -144,7 +144,7 @@ namespace nanomodtests.Content
             MeshData mesh;
             ITextureAtlasAPI atlas = stack.Class == EnumItemClass.Item ? capi.ItemTextureAtlas : capi.BlockTextureAtlas;
 
-            SimpleContainedTextureSource textureMapping = new SimpleContainedTextureSource(atlas);
+            SimpleContainedTextureSource textureMapping = new SimpleContainedTextureSource(capi, atlas);
             PropertyTextureMapping mapping;
             AssetLocation textureLocation;
             TextureAtlasPosition atlasPos;

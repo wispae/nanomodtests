@@ -2,5 +2,9 @@
   "hello": "hello world!",
   "game:tabname-nanomodtests": "Nanotect's Tests",
   "item-tuningfork": "Tuning Fork",
-  "itemdesc-tuningfork": "<i>It seems to resonate with a distant energy...</i>"
+  "itemdesc-tuningfork": "<i>It seems to resonate with a distant energy...</i>",
+  "item-danafork": "Dana-based Tuning Fork",
+  "handlematerial": "Handle",
+  "tipmaterial": "Tip",
+  "fork-resonance": "<font color=\"#ab0000\">It seems to resonate with a far away power...</font>"
 }

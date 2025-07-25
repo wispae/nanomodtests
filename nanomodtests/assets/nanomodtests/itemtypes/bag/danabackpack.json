@@ -1,0 +1,253 @@
+﻿{
+  "code": "danabackpack",
+  "behaviors": [
+    {
+      "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+      "properties": {
+        "shape": {
+          "leftslot-*::backslot-*::rightslot-*": {
+            "base": "nanomodtests:item/bag/backpack",
+            "overlays": [
+              { "base": "nanomodtests:item/bag/leftslot/{leftslot}" },
+              { "base": "nanomodtests:item/bag/backslot/{backslot}" },
+              { "base": "nanomodtests:item/bag/rightslot/{rightslot}" }
+            ]
+          }
+        },
+        "textures": {
+          "blanket-*::leather-*": {
+            "blanket": {
+              "base": "game:item/wearable/hooved/blanket/{blanket}"
+            },
+            "leather": {
+              "base": "game:block/leather/chromium"
+            }
+          },
+          "blanket-*": {
+            "blanket": {
+              "base": "game:item/wearable/hooved/blanket/{blanket}"
+            }
+          },
+          "leather-*": {
+            "leather": {
+              "base": "game:block/leather/chromium"
+            }
+          },
+          "*": {
+            "blanket": {
+              "base": "game:item/wearable/hooved/blanket/alchemist"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "AttributeRenderingLibrary.AttachableToEntityTyped",
+      "properties": {
+        "categoryCode": {
+          "*": "backpack"
+        },
+        "attachedShapeBySlotCode": {
+          "leftslot-*::backslot-*::rightslot-*": {
+            "*": {
+              "base": "nanomodtests:item/wearable/backpack/backpack_none_none_none",
+              "overlays": [
+                { "base": "nanomodtests:item/bag/leftslot/{leftslot}" },
+                { "base": "nanomodtests:item/bag/backslot/{backslot}" },
+                { "base": "nanomodtests:item/bag/rightslot/{rightslot}" }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "creativeinventorystacks": [
+    {
+      "tabs": [ "general", "items", "nanomodtests" ],
+      "stacks": [
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "none",
+              "backslot": "none",
+              "rightslot": "none"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "rope",
+              "backslot": "none",
+              "rightslot": "none"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "none",
+              "backslot": "blanket",
+              "rightslot": "none"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "rope",
+              "backslot": "blanket",
+              "rightslot": "none"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "none",
+              "backslot": "none",
+              "rightslot": "map"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "rope",
+              "backslot": "none",
+              "rightslot": "map"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "none",
+              "backslot": "blanket",
+              "rightslot": "map"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "rope",
+              "backslot": "blanket",
+              "rightslot": "map"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "rope",
+              "backslot": "blanket",
+              "rightslot": "map",
+              "blanket": "king",
+              "leather": "sturdy"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "danabackpack",
+          "attributes": {
+            "types": {
+              "leftslot": "rope",
+              "backslot": "blanket",
+              "rightslot": "map",
+              "blanket": "fancygreen"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "storageFlags": 2,
+  "attributes": {
+    "backpack": {
+      "quantitySlots": 12
+    }
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 3,
+      "y": -1,
+      "z": 0
+    },
+    "rotation": {
+      "x": -20,
+      "y": 21,
+      "z": 180
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.22,
+      "z": 0.5
+    },
+    "scale": 3.3
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0.2
+    },
+    "rotation": {
+      "x": 20,
+      "y": -73,
+      "z": 10
+    },
+    "scale": 2.5
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.48,
+      "y": -0.31,
+      "z": -0.54
+    },
+    "rotation": {
+      "x": -7,
+      "y": 0,
+      "z": 1
+    },
+    "scale": 1.07
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 180,
+      "y": 33,
+      "z": -180
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4.4
+  }
+}

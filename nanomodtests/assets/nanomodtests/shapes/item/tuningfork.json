@@ -13,7 +13,8 @@
 	},
 	"elements": [
 		{
-			"name": "base",
+      "name": "base",
+      "stepParentName": "Neck",
 			"from": [ 0.0, -8.5, 7.5 ],
 			"to": [ 3.0, -7.5, 8.5 ],
 			"rotationOrigin": [ 0.0, 0.0, 7.5 ],
