@@ -1,0 +1,131 @@
+{
+	"editor": {
+		"backDropShape": "game:entity/humanoid/seraph",
+		"collapsedPaths": ",Root/backpack/base/BottomFold,Root/origin/N,Root/origin/S,Root/origin/W,Root/backpack/base/originrope,Root/backpack/base/origin,Root/origin/E,Root/backpack/base/originmap",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"blanket": [16,24]
+	},
+	"textures": {
+		"blanket": "game:item/wearable/hooved/blanket/alchemist"
+	},
+	"elements": [
+		{
+			"name": "BottomFold",
+			"stepParentName": "UpperTorso",
+			"from": [ 4.12, 1.99, 0.24 ],
+			"to": [ 11.932, 2.29, 4.44 ],
+			"rotationOrigin": [ 8.9219, 1.9815, 2.34 ],
+			"rotationX": 90.0,
+			"rotationY": 25.0,
+			"rotationZ": -90.0,
+			"faces": {
+				"north": { "texture": "#blanket", "uv": [ 1.5, 0.0, 9.0, 0.5 ] },
+				"east": { "texture": "#blanket", "uv": [ 1.0, 0.5, 1.5, 4.5 ], "rotation": 90 },
+				"south": { "texture": "#blanket", "uv": [ 1.5, 0.0, 9.0, 0.5 ], "rotation": 180 },
+				"west": { "texture": "#blanket", "uv": [ 14.5, 0.5, 15.0, 4.5 ], "rotation": 90 },
+				"up": { "texture": "#blanket", "uv": [ 1.5, 0.0, 9.0, 4.0 ], "rotation": 180 },
+				"down": { "texture": "#blanket", "uv": [ 1.5, 0.0, 9.0, 4.0 ], "rotation": 180 }
+			},
+			"children": [
+				{
+					"name": "Cube3",
+					"from": [ 0.0, 0.3, 0.0 ],
+					"to": [ 7.812, 0.6, 4.2 ],
+					"rotationOrigin": [ 0.0, 0.3, 0.0 ],
+					"rotationY": 1.0,
+					"faces": {
+						"north": { "texture": "#blanket", "uv": [ 1.5, 10.0, 9.3, 10.3 ] },
+						"east": { "texture": "#blanket", "uv": [ 1.0, 7.5, 1.5, 11.5 ], "rotation": 90 },
+						"south": { "texture": "#blanket", "uv": [ 1.5, 3.0, 9.3, 3.3 ] },
+						"west": { "texture": "#blanket", "uv": [ 14.5, 7.5, 15.0, 11.5 ], "rotation": 90 },
+						"up": { "texture": "#blanket", "uv": [ 1.5, 2.0, 9.3, 6.2 ] },
+						"down": { "texture": "#blanket", "uv": [ 1.5, 2.5, 9.3, 6.7 ] }
+					},
+					"children": [
+						{
+							"name": "SpineA2",
+							"from": [ 0.006, 0.0, 4.2 ],
+							"to": [ 7.806, 0.42, 4.62 ],
+							"rotationOrigin": [ 0.0, 0.0, 4.2 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 7.8, 0.3 ], "enabled": false },
+								"east": { "texture": "#blanket", "uv": [ 3.0, 0.0, 3.3, 0.3 ] },
+								"south": { "texture": "#blanket", "uv": [ 1.5, 4.5, 9.3, 4.8 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#blanket", "uv": [ 1.0, 1.0, 1.3, 1.3 ] },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 7.8, 0.3 ], "enabled": false },
+								"down": { "texture": "#blanket", "uv": [ 1.5, 6.0, 9.0, 6.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Cube4",
+							"from": [ 0.0, 0.3, 0.0 ],
+							"to": [ 7.812, 0.6, 4.2 ],
+							"rotationOrigin": [ 0.0, 0.3, 4.2 ],
+							"rotationY": -1.0,
+							"faces": {
+								"north": { "texture": "#blanket", "uv": [ 1.5, 6.5, 9.3, 6.8 ] },
+								"east": { "texture": "#blanket", "uv": [ 1.0, 12.0, 1.5, 16.0 ], "rotation": 90 },
+								"south": { "texture": "#blanket", "uv": [ 1.5, 4.5, 9.3, 4.8 ] },
+								"west": { "texture": "#blanket", "uv": [ 14.5, 12.0, 15.0, 16.0 ], "rotation": 90 },
+								"up": { "texture": "#blanket", "uv": [ 1.5, 7.5, 9.3, 11.7 ] },
+								"down": { "texture": "#blanket", "uv": [ 1.5, 6.0, 9.3, 10.2 ] }
+							},
+							"children": [
+								{
+									"name": "SpineA3",
+									"from": [ 0.006, 0.0, 0.0 ],
+									"to": [ 7.806, 0.42, 0.42 ],
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -45.0,
+									"faces": {
+										"north": { "texture": "#blanket", "uv": [ 1.5, 13.0, 9.0, 13.5 ], "rotation": 180 },
+										"east": { "texture": "#blanket", "uv": [ 1.0, 2.0, 1.3, 2.3 ] },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 7.8, 0.3 ], "enabled": false },
+										"west": { "texture": "#blanket", "uv": [ 1.0, 0.5, 1.3, 0.8 ] },
+										"up": { "texture": "#blanket", "uv": [ 1.5, 3.0, 9.3, 3.3 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 7.8, 0.3 ], "enabled": false }
+									}
+								},
+								{
+									"name": "TopFold",
+									"from": [ 0.0, 0.3, 0.0 ],
+									"to": [ 7.812, 0.6, 3.6 ],
+									"rotationOrigin": [ 0.0, 0.3, 0.0 ],
+									"rotationY": 1.0,
+									"faces": {
+										"north": { "texture": "#blanket", "uv": [ 1.5, 6.0, 9.0, 6.5 ], "rotation": 180 },
+										"east": { "texture": "#blanket", "uv": [ 1.0, 17.5, 1.5, 21.0 ], "rotation": 90 },
+										"south": { "texture": "#blanket", "uv": [ 1.0, 0.0, 8.8, 0.3 ] },
+										"west": { "texture": "#blanket", "uv": [ 14.5, 17.5, 15.0, 21.0 ], "rotation": 90 },
+										"up": { "texture": "#blanket", "uv": [ 1.5, 17.0, 9.3, 20.6 ] },
+										"down": { "texture": "#blanket", "uv": [ 1.5, 17.5, 9.3, 21.1 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "SpineA",
+					"from": [ 0.006, 0.0, 0.0 ],
+					"to": [ 7.806, 0.42, 0.42 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -45.0,
+					"faces": {
+						"north": { "texture": "#blanket", "uv": [ 1.5, 13.0, 9.3, 13.3 ] },
+						"east": { "texture": "#blanket", "uv": [ 1.0, 5.0, 1.3, 5.3 ] },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 7.8, 0.3 ], "enabled": false },
+						"west": { "texture": "#blanket", "uv": [ 1.0, 8.5, 1.3, 8.8 ] },
+						"up": { "texture": "#blanket", "uv": [ 1.5, 2.0, 9.0, 2.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 7.8, 0.3 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

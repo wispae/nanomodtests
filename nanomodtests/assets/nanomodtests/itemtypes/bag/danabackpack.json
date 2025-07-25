@@ -50,11 +50,11 @@
         "attachedShapeBySlotCode": {
           "leftslot-*::backslot-*::rightslot-*": {
             "*": {
-              "base": "nanomodtests:item/wearable/backpack/backpack_none_none_none",
+              "base": "nanomodtests:item/wearable/backpack/backpack",
               "overlays": [
-                { "base": "nanomodtests:item/bag/leftslot/{leftslot}" },
-                { "base": "nanomodtests:item/bag/backslot/{backslot}" },
-                { "base": "nanomodtests:item/bag/rightslot/{rightslot}" }
+                { "base": "nanomodtests:item/wearable/backpack/leftslot/{leftslot}" },
+                { "base": "nanomodtests:item/wearable/backpack/backslot/{backslot}" },
+                { "base": "nanomodtests:item/wearable/backpack/rightslot/{rightslot}" }
               ]
             }
           }
