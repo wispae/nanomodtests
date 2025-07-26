@@ -1,0 +1,131 @@
+﻿{
+  "code": "variablebackpack",
+  "behaviors": [
+    {
+      "name": "AttributeRenderingLibrary.HeldBagTyped",
+      "properties": {
+        "quantitySlots": {
+          "bagsize-small": 12,
+          "bagsize-medium": 16,
+          "bagsize-large": 20,
+          "*": 12
+        },
+        "slotBgColor": {
+          "slotcolor-none": "#ffffff",
+          "slotcolor-*": "#{slotcolor}",
+          "*": "#ffffff"
+        }
+      }
+    }
+  ],
+  "creativeinventorystacks": [
+    {
+      "tabs": [ "general", "items", "nanomodtests" ],
+      "stacks": [
+        {
+          "type": "item",
+          "code": "variablebackpack",
+          "attributes": {
+            "types": {
+              "bagsize": "small",
+              "slotcolor": "00ff00"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "variablebackpack",
+          "attributes": {
+            "types": {
+              "bagsize": "medium",
+              "slotcolor": "0000ff"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "code": "variablebackpack",
+          "attributes": {
+            "types": {
+              "bagsize": "large",
+              "slotcolor": "ff0000"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "storageFlags": 2,
+  "attributes": {
+    "backpack": {
+      "quantitySlots": 12
+    },
+    "attachableToEntity": {
+      "categoryCode": "backpack",
+      "attachedShape": { "base": "game:item/bag/backpack-normal-attached" }
+    }
+  },
+  "shape": { "base": "game:item/bag/backpack-normal" },
+  "guiTransform": {
+    "translation": {
+      "x": 3,
+      "y": -1,
+      "z": 0
+    },
+    "rotation": {
+      "x": -20,
+      "y": 21,
+      "z": 180
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.22,
+      "z": 0.5
+    },
+    "scale": 3.3
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0.2
+    },
+    "rotation": {
+      "x": 20,
+      "y": -73,
+      "z": 10
+    },
+    "scale": 2.5
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.48,
+      "y": -0.31,
+      "z": -0.54
+    },
+    "rotation": {
+      "x": -7,
+      "y": 0,
+      "z": 1
+    },
+    "scale": 1.07
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 180,
+      "y": 33,
+      "z": -180
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4.4
+  }
+}

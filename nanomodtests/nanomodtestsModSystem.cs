@@ -37,6 +37,7 @@ namespace nanomodtests
         private void RegisterCollectibleBehaviors(ICoreAPI api)
         {
             api.RegisterCollectibleBehaviorClass("TexturesFromAttributes", typeof(CollectibleTexturesFromAttributes));
+            api.RegisterCollectibleBehaviorClass("BetterBag", typeof(CollectibleBehaviorBetterBag));
         }
 
     }

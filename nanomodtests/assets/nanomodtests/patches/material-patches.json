@@ -3,7 +3,7 @@
     "op": "addmerge",
     "path": "/material-temporal",
     "value": "Temporal",
-    "file": "lang/en.json",
+    "file": "game:lang/en.json",
     "side": "server"
   }
 ]

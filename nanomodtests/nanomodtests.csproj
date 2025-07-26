@@ -9,7 +9,7 @@
   <ItemGroup>
     <Reference Include="VintagestoryAPI">
       <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
-      <Private>false</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="VSEssentials">
       <HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
@@ -45,6 +45,10 @@
     </Reference>
     <Reference Include="Microsoft.Data.Sqlite">
       <HintPath>$(VINTAGE_STORY)/Lib/Microsoft.Data.Sqlite.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>$(VINTAGE_STORY)\Lib\SkiaSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

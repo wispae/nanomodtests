@@ -1,0 +1,65 @@
+﻿[
+  {
+    "op": "addmerge",
+    "path": "/attributes/backpackableProps",
+    "value": {
+      "category": "backpack",
+      "slot": "rightslot",
+      "priority": 0,
+      "codes": {
+        "rightslot": "map"
+      }
+    },
+    "file": "game:itemtypes/utility/locatormap.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/backpackablePropsByType",
+    "value": {
+      "*-scroll": {
+        "category": "backpack",
+        "slot": "rightslot",
+        "priority": 0,
+        "codes": {
+          "rightslot": "map"
+        }
+      }
+    },
+    "file": "game:itemtypes/lore/lore.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "backpackableProps": {
+        "category": "backpack",
+        "slot": "leftslot",
+        "priority": 0,
+        "codes": {
+          "leftslot": "rope"
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/rope.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/backpackablePropsByType",
+    "value": {
+      "*": {
+        "category": "backpack",
+        "slot": "backslot",
+        "priority": 0,
+        "codes": {
+          "backslot": "blanket",
+          "blanket": "{type}"
+        }
+      }
+    },
+    "file": "game:itemtypes/wearable/blanket.json",
+    "side": "server"
+  }
+]

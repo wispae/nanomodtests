@@ -1,0 +1,214 @@
+﻿[
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "B": {
+        "type": "item",
+        "code": "betterbackpack"
+      }
+    },
+    "mergeAttributesFrom": [
+      "B"
+    ],
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "backpackcolor",
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "dye-white"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "betterbackpack",
+      "attributes": {
+        "types": {
+          "slotcolor": "#ffffff"
+        }
+      }
+    }
+  },
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "B": {
+        "type": "item",
+        "code": "betterbackpack"
+      }
+    },
+    "mergeAttributesFrom": [
+      "B"
+    ],
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "backpackcolor",
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "dye-red"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "betterbackpack",
+      "attributes": {
+        "types": {
+          "slotcolor": "#ff0000"
+        }
+      }
+    }
+  },
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "B": {
+        "type": "item",
+        "code": "betterbackpack"
+      }
+    },
+    "mergeAttributesFrom": [
+      "B"
+    ],
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "backpackcolor",
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "dye-green"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "betterbackpack",
+      "attributes": {
+        "types": {
+          "slotcolor": "#00ff00"
+        }
+      }
+    }
+  },
+  {
+    "ingredientPattern": "WB",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "B": {
+        "type": "item",
+        "code": "betterbackpack"
+      }
+    },
+    "mergeAttributesFrom": [
+      "B"
+    ],
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "backpackcolor",
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "dye-blue"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "betterbackpack",
+      "attributes": {
+        "types": {
+          "slotcolor": "#0000ff"
+        }
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LB",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "betterbackpack"
+      }
+    },
+    "mergeAttributesFrom": [
+      "B"
+    ],
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "backpacksize",
+    "output": {
+      "type": "item",
+      "code": "betterbackpack",
+      "attributes": {
+        "types": {
+          "bagsize": "large"
+        }
+      }
+    }
+  },
+  {
+    "ingredientPattern": "LB",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "quantity": 1
+      },
+      "B": {
+        "type": "item",
+        "code": "betterbackpack"
+      }
+    },
+    "mergeAttributesFrom": [
+      "B"
+    ],
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "backpacksize",
+    "output": {
+      "type": "item",
+      "code": "betterbackpack",
+      "attributes": {
+        "types": {
+          "bagsize": "medium"
+        }
+      }
+    }
+  }
+]
